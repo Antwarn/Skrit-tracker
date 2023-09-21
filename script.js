@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         friendStepCountElement.textContent = friendStepCount + " steps";
 
         if (yourStepCount >= goalSteps) {
-            yourStepCountElement.textContent = "Tilykke du har vundet over David!!";
+            yourStepCountElement.textContent = "Tillykke du har vundet over David!!";
             addButton.disabled = true;
         }
 
