@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Counter App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Step Competition App</h1>
+        <p>Nå 10000 skridt før David idag</p>
+        <div class="progress-container">
+            <div class="progress-bar" id="your-progress-bar"></div>
+        </div>
+        <p id="your-step-count">0 steps</p>
+        
+        <p>Davids skrit idag</p>
+        <div class="progress-container">
+            <div class="progress-bar" id="friend-progress-bar"></div>
+        </div>
+        <p id="friend-step-count">0 steps</p>
+        
+        <button id="add-step-btn">Add Step</button>
+        <button id="add-friend-step-btn">Add Friend's Step</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
