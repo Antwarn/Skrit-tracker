@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" modified="2023-09-24T11:47:31.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8yXT4ecI1XIhExIT2f8D" version="21.8.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-0" target="YxWUrJ3wpDsGDHVu-iU_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-0" value="Appen starter, og brugerne ser hovedskærmen." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="344" y="70" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-2" value="Brugeren kan indtaste navnet på en opgave i tekstfeltet, og tilføje antal skridt til opgaven" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="318" y="160" width="248" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-7" target="YxWUrJ3wpDsGDHVu-iU_-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-10" value="Oprettet på spiller 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxWUrJ3wpDsGDHVu-iU_-8">
+          <mxGeometry x="-0.023" y="1" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-7" target="YxWUrJ3wpDsGDHVu-iU_-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-13" value="Oprettet på spiller 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxWUrJ3wpDsGDHVu-iU_-11">
+          <mxGeometry x="0.0811" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Er opgaven tilføjet til spiller 1, spiller 2 eller begge spillere&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="356" y="260" width="172" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="480" />
+              <mxPoint x="180" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-9" value="Opret opgave på spiller 1, med antal skridt og straf&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-14" target="YxWUrJ3wpDsGDHVu-iU_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-14" value="Opret opgave på spiller 2, med antal skridt og straf&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-16" target="YxWUrJ3wpDsGDHVu-iU_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-16" target="YxWUrJ3wpDsGDHVu-iU_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-16" value="Opret opgave på begge spillere, med antal skridt og straf&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="382" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-18" value="Spiller 1 tager skrit" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-20" target="YxWUrJ3wpDsGDHVu-iU_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-20" value="Spiller 2 tager skrit" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-23" target="YxWUrJ3wpDsGDHVu-iU_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-23" value="Opdater skridt i realtid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-24" target="YxWUrJ3wpDsGDHVu-iU_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-24" value="Opdater skridt i realtid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-26" value="Progress bar bliver opdateret" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-28" target="YxWUrJ3wpDsGDHVu-iU_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-28" value="Progress bar bliver opdateret" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-32" target="YxWUrJ3wpDsGDHVu-iU_-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-32" target="YxWUrJ3wpDsGDHVu-iU_-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="850.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-32" value="Har spiller nået målet?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="372" y="700" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxWUrJ3wpDsGDHVu-iU_-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441.99999999999955" y="960.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-46" value="Lav alert der siger fx. &quot;spiller 2&quot; tabte og skal: &lt;br&gt;{den given opgave fra tideliger}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="306" y="850" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxWUrJ3wpDsGDHVu-iU_-48" value="Spiller kan lukke appen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="378" y="960" width="128" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
