@@ -1,65 +1,71 @@
+/* Reset some default styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
+/* Add a background color and center the content */
 .container {
-    max-width: 100%;
-    margin: 0;
-    padding: 10px;
-    background-color: #7442c8; /* Purple background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: #fff; /* White text color */
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
+/* Style the header */
 h1 {
-    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
+/* Style the player sections */
 .player {
     text-align: center;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #fff;
-    color: #7442c8; /* Purple text color */
 }
 
 .player p {
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
-progress {
+.progress-bar {
     width: 100%;
-    height: 100px; /* Adjust the height to make the progress bar thicker */
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background-color: #4CAF50;
+    border-radius: 10px;
 }
 
 button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    background-color: #9c6fd8; /* Lighter purple button background color */
-    color: #fff; /* White text color */
+    background-color: #4CAF50;
+    color: white;
     border: none;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
-    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #7442c8; /* Slightly darker purple color on hover */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow effect on hover */
+    background-color: #45a049;
 }
 
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
+/* Style the friend list */
 .friend-list {
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -68,24 +74,43 @@ ul {
     padding: 0;
 }
 
-li {
+ul li {
+    font-size: 16px;
     margin: 5px 0;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        padding: 5px;
+/* Style the task section */
+.task {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
     }
 
-    .player {
-        margin-bottom: 10px;
+    .player p {
+        font-size: 16px;
     }
 
-    progress {
-        height: 50px;
-    }
-
-    input[type="text"] {
-        padding: 5px;
+    .task input[type="text"],
+    .task input[type="number"],
+    .task select,
+    .task button {
+        font-size: 14px;
     }
 }

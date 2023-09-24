@@ -11,27 +11,26 @@
         <h1>Step Counter</h1>
         <div class="player">
             <p>Player 1 Steps: <span id="steps1">0</span></p>
-            <div class="progress-container">
-                <p>Goal: 100 steps</p> <!-- Added goal element for Player 1 -->
-                <progress id="progress1" max="100" value="0"></progress>
-            </div>
+            <progress id="progress1" max="100" value="0"></progress>
             <button id="increment1">Increment</button>
         </div>
         <div class="player">
             <p>Player 2 Steps: <span id="steps2">0</span></p>
-            <div class="progress-container">
-                <p>Goal: 100 steps</p> <!-- Added goal element for Player 2 -->
-                <progress id="progress2" max="100" value="0"></progress>
-            </div>
+            <progress id="progress2" max="100" value="0"></progress>
             <button id="increment2">Increment</button>
         </div>
         <div class="friend-list">
-            <h2>Friends</h2>
+            <h2>Challenges</h2>
             <ul id="friend-list"></ul>
         </div>
         <div class="task">
             <h2>Create a Task</h2>
             <input type="text" id="taskName" placeholder="Task name">
+            <input type="number" id="taskSteps" placeholder="Steps to Goal">
+            <select id="playerSelect">
+                <option value="Player 1">Player 1</option>
+                <option value="Player 2">Player 2</option>
+            </select>
             <button id="createTask">Create Task</button>
         </div>
     </div>
