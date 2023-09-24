@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Step Counter App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+    <title>Step Counter App</title>
 </head>
 <body>
     <div class="container">
-        <h1>Step Competition App</h1>
-        <p>Nå 10000 skridt før David idag</p>
-        <div class="progress-container">
-            <div class="progress-bar" id="your-progress-bar"></div>
+        <h1>Step Counter</h1>
+        <div class="player">
+            <p>Player 1 Steps: <span id="steps1">0</span></p>
+            <progress id="progress1" max="100" value="0"></progress>
+            <button id="increment1">Increment</button>
         </div>
-        <p id="your-step-count">0 steps</p>
-        
-        <p>Davids skrit idag</p>
-        <div class="progress-container">
-            <div class="progress-bar" id="friend-progress-bar"></div>
+        <div class="player">
+            <p>Player 2 Steps: <span id="steps2">0</span></p>
+            <progress id="progress2" max="100" value="0"></progress>
+            <button id="increment2">Increment</button>
         </div>
-        <p id="friend-step-count">0 steps</p>
-        
-        <button id="add-step-btn">Add Step</button>
-        <button id="add-friend-step-btn">Add Friend's Step</button>
+        <div class="friend-list">
+            <h2>Friends</h2>
+            <ul id="friend-list"></ul>
+        </div>
+        <div class="task">
+            <h2>Create a Task</h2>
+            <input type="text" id="taskName" placeholder="Task name">
+            <button id="createTask">Create Task</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

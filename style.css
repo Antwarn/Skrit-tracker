@@ -1,56 +1,91 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f5e7ea; /* Light purple background color */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #7442c8; /* Purple background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff; /* White text color */
 }
 
 h1 {
-    color: #7e57c2; /* Purple header text color */
+    text-align: center;
 }
 
-.progress-container {
-    background-color: #ccc;
-    border-radius: 5px;
-    height: 20px;
-    margin: 20px 0;
-    overflow: hidden;
+.player {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    color: #7442c8; /* Purple text color */
 }
 
-.progress-bar {
-    background-color: #7e57c2; /* Purple progress bar color */
-    height: 100%;
-    width: 0;
-    transition: width 0.3s;
+.player p {
+    margin-bottom: 5px;
 }
 
-#step-count {
-    font-size: 24px;
-    margin-top: 10px;
-    color: #7e57c2; /* Purple step count text color */
+progress {
+    width: 100%;
+    height: 100px; /* Adjust the height to make the progress bar thicker */
 }
 
-#add-step-btn,
-#add-friend-step-btn {
-    background-color: #7e57c2; /* Purple button background color */
-    color: #fff;
-    border: none;
+button {
+    display: block;
+    margin: 10px auto;
     padding: 10px 20px;
-    font-size: 16px;
+    background-color: #9c6fd8; /* Lighter purple button background color */
+    color: #fff; /* White text color */
+    border: none;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
 }
 
-#add-step-btn:hover,
-#add-friend-step-btn:hover {
-    background-color: #5d3388; /* Darker purple for button hover effect */
+button:hover {
+    background-color: #7442c8; /* Slightly darker purple color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow effect on hover */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.friend-list {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 5px;
+    }
+
+    .player {
+        margin-bottom: 10px;
+    }
+
+    progress {
+        height: 50px;
+    }
+
+    input[type="text"] {
+        padding: 5px;
+    }
 }
