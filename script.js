@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function checkLoser(name, steps) {
         if (steps >= goal && (loser === null || steps > friends.find(f => f.name === loser).steps)) {
             loser = name;
-            alert(`${loser} is the loser and must do the task: ${currentTaskName}`);
+            alert(`${loser} er en taber og skal: ${currentTaskName}`);
         }
     }
 
